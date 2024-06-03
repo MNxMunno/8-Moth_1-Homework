@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+@import "./components/header";
+@import "./components/products";
+@import "./routers/home";
+@import "./routers/singleRoute";
+@import "./routers/shop";
+@import "./routers/wishlist";
+@import "./static/banner";
+@import "./static/cart";
